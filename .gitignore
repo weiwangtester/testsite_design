@@ -1,0 +1,17 @@
+# 以下是测试框架的 ignore，先写上
+reports
+**/allure_json_report/
+**/__pycache__/
+**/.pytest_cache/
+**/chromedriver.exe
+**/chrome-headless-shell-win64/
+**/chrome-headless-shell-linux64/
+.venv/
+.idea/
+# SQLite database file (no use)
+db.sqlite3
+*.pyc
+# Vim swap files
+*.swo
+# 因为任何时间任何成员都可以在本地通过 makemigrations 重新生成，故不上库避免模型冲突
+**/migrations/
